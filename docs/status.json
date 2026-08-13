@@ -1,0 +1,44 @@
+﻿{
+    "protocol":  "source-only stratified 70/20/10, seed 42, 100 epochs",
+    "updated_at":  "2026-08-13T00:44:46.3947466+08:00",
+    "experiments":  [
+                        {
+                            "name":  "densenet121",
+                            "batch_size":  4,
+                            "state":  "completed",
+                            "exit_code":  0,
+                            "started_at":  "2026-08-12T12:38:59.4880104+08:00",
+                            "finished_at":  "2026-08-12T15:12:57.8108210+08:00"
+                        },
+                        {
+                            "name":  "vit",
+                            "batch_size":  2,
+                            "state":  "completed",
+                            "exit_code":  0,
+                            "started_at":  "2026-08-12T15:12:57.8226843+08:00",
+                            "finished_at":  "2026-08-12T20:02:51.9448802+08:00"
+                        },
+                        {
+                            "name":  "swin_b",
+                            "batch_size":  1,
+                            "state":  "completed",
+                            "exit_code":  0,
+                            "started_at":  "2026-08-12T20:02:51.9569886+08:00",
+                            "finished_at":  "2026-08-13T00:44:46.3947466+08:00"
+                        }
+                    ],
+    "blocked":  [
+                    {
+                        "name":  "resnet50",
+                        "reason":  "README requires project-specific pretrained_weights/ResNet.pkl, which is not present and has no public URL."
+                    },
+                    {
+                        "name":  "vim_base_mamba",
+                        "reason":  "Official selective_scan_cuda/causal_conv1d CUDA extensions are unavailable on this Windows host; README environment is Linux-oriented."
+                    },
+                    {
+                        "name":  "inspiration_ablations",
+                        "reason":  "The repository implements only the linear clinical-order Vim+Mamba model, not the proposed ablation variants."
+                    }
+                ]
+}

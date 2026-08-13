@@ -1,0 +1,20 @@
+{
+  "model": "mamba",
+  "best_epoch": 21,
+  "best_val": {
+    "exact_accuracy": 0.6209912300109863,
+    "type_accuracy": 0.8688046932220459,
+    "pattern_accuracy": 0.7317784428596497,
+    "joint_accuracy": 0.6209912536443148,
+    "joint_weighted_f1": 0.570483753492046,
+    "loss": 1.1042380840368242
+  },
+  "test": {
+    "exact_accuracy": 0.5964912176132202,
+    "type_accuracy": 0.847953200340271,
+    "pattern_accuracy": 0.719298243522644,
+    "joint_accuracy": 0.5964912280701754,
+    "joint_weighted_f1": 0.5476225636600961,
+    "loss": 1.1740719045114796
+  }
+}

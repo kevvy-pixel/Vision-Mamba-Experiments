@@ -1,0 +1,34 @@
+{
+  "variant": "clinical",
+  "design": {
+    "sequence": [
+      5,
+      2,
+      3,
+      6,
+      9,
+      8,
+      7,
+      4,
+      1
+    ],
+    "position": "learned linear"
+  },
+  "seed": 43,
+  "epochs": 100,
+  "d_model": 192,
+  "d_state": 16,
+  "depth": 2,
+  "feature_shape": [
+    1716,
+    9,
+    1024
+  ],
+  "split": {
+    "train": 1202,
+    "val": 343,
+    "test": 171
+  },
+  "trainable_parameters": 703110,
+  "pure_pytorch": true
+}

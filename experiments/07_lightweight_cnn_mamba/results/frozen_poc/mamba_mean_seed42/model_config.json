@@ -1,0 +1,12 @@
+{
+  "mode": "mamba_mean",
+  "seed": 42,
+  "epochs": 40,
+  "backbone": "MobileNetV3-Small ImageNet1K V1",
+  "backbone_frozen": true,
+  "d_model": 192,
+  "d_state": 16,
+  "depth": 2,
+  "parameters": 617094,
+  "gaze_order": "5-2-3-6-9-8-7-4-1"
+}

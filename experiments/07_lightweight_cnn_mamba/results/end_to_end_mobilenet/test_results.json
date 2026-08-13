@@ -1,0 +1,190 @@
+{
+  "best_epoch": 26,
+  "best_val": {
+    "loss": 2.014199184085468,
+    "exact_accuracy": 0.6122449040412903,
+    "type_accuracy": 0.8804664611816406,
+    "pattern_accuracy": 0.7142857313156128,
+    "joint_weighted_f1": 0.564688480856161,
+    "joint_macro_f1": 0.3345689485880366
+  },
+  "test": {
+    "loss": 2.1131615471421625,
+    "exact_accuracy": 0.6198830604553223,
+    "type_accuracy": 0.8771929740905762,
+    "pattern_accuracy": 0.719298243522644,
+    "joint_weighted_f1": 0.5597155469154658,
+    "joint_macro_f1": 0.32598209676319606,
+    "six_class_labels": [
+      "dvd_no",
+      "eso_no",
+      "eso_V",
+      "exo_A",
+      "exo_no",
+      "exo_V"
+    ],
+    "six_class_confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        9,
+        0
+      ],
+      [
+        0,
+        22,
+        1,
+        0,
+        7,
+        0
+      ],
+      [
+        0,
+        5,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        4,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        74,
+        7
+      ],
+      [
+        0,
+        3,
+        0,
+        0,
+        27,
+        9
+      ]
+    ],
+    "six_class_report": {
+      "dvd_no": {
+        "precision": 1.0,
+        "recall": 0.1,
+        "f1-score": 0.18181818181818182,
+        "support": 10.0
+      },
+      "eso_no": {
+        "precision": 0.7096774193548387,
+        "recall": 0.7333333333333333,
+        "f1-score": 0.7213114754098361,
+        "support": 30.0
+      },
+      "eso_V": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 6.0
+      },
+      "exo_A": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 4.0
+      },
+      "exo_no": {
+        "precision": 0.6065573770491803,
+        "recall": 0.9024390243902439,
+        "f1-score": 0.7254901960784313,
+        "support": 82.0
+      },
+      "exo_V": {
+        "precision": 0.5625,
+        "recall": 0.23076923076923078,
+        "f1-score": 0.32727272727272727,
+        "support": 39.0
+      },
+      "accuracy": 0.6198830409356725,
+      "macro avg": {
+        "precision": 0.47978913273400314,
+        "recall": 0.327756931415468,
+        "f1-score": 0.32598209676319606,
+        "support": 171.0
+      },
+      "weighted avg": {
+        "precision": 0.602137587711567,
+        "recall": 0.6198830409356725,
+        "f1-score": 0.5597155469154658,
+        "support": 171.0
+      }
+    },
+    "type_confusion_matrix": [
+      [
+        1,
+        0,
+        9
+      ],
+      [
+        0,
+        28,
+        8
+      ],
+      [
+        0,
+        4,
+        121
+      ]
+    ],
+    "pattern_confusion_matrix": [
+      [
+        114,
+        0,
+        8
+      ],
+      [
+        4,
+        0,
+        0
+      ],
+      [
+        36,
+        0,
+        9
+      ]
+    ]
+  },
+  "config": {
+    "seed": 42,
+    "epochs": 100,
+    "backbone": "MobileNetV3-Small ImageNet1K V1",
+    "stage1_head_checkpoint": "C:\\Users\\27356\\Documents\\Codex\\2026-08-12\\c-users-27356-documents-codex-2026\\outputs\\vision_mamba_experiments_seed42_20260812\\temporal_mamba\\lightweight_cnn_poc\\mamba_mean_seed42\\best.pt",
+    "stage1_best_epoch": 20,
+    "stage1_val": {
+      "loss": 1.1650448776890168,
+      "exact_accuracy": 0.5801749229431152,
+      "type_accuracy": 0.8396501541137695,
+      "pattern_accuracy": 0.705539345741272,
+      "joint_weighted_f1": 0.5242482548956273,
+      "joint_macro_f1": 0.29326686848618927
+    },
+    "backbone_lr": 2e-05,
+    "temporal_lr": 0.0001,
+    "d_model": 192,
+    "d_state": 16,
+    "depth": 2,
+    "pooling": "mean",
+    "gaze_order": "5-2-3-6-9-8-7-4-1",
+    "parameters": {
+      "total": 1544102,
+      "backbone": 927008,
+      "temporal_and_heads": 617094
+    },
+    "joint_fine_tuning": "all MobileNet and Clinical Mamba parameters"
+  }
+}

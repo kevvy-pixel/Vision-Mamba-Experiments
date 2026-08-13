@@ -1,0 +1,140 @@
+{
+  "best_epoch": 31,
+  "best_val": {
+    "loss": 1.210664864879308,
+    "exact_accuracy": 0.5626822113990784,
+    "type_accuracy": 0.8104956150054932,
+    "pattern_accuracy": 0.7142857313156128,
+    "joint_weighted_f1": 0.46670831643280525,
+    "joint_macro_f1": 0.23758868690862525
+  },
+  "test": {
+    "loss": 1.1766746587920607,
+    "exact_accuracy": 0.5789473652839661,
+    "type_accuracy": 0.8304093480110168,
+    "pattern_accuracy": 0.7251461744308472,
+    "joint_weighted_f1": 0.48422746889793106,
+    "joint_macro_f1": 0.2528420721146276,
+    "six_class_labels": [
+      "dvd_no",
+      "eso_no",
+      "eso_V",
+      "exo_A",
+      "exo_no",
+      "exo_V"
+    ],
+    "six_class_confusion_matrix": [
+      [
+        0,
+        1,
+        0,
+        0,
+        9,
+        0
+      ],
+      [
+        0,
+        20,
+        0,
+        0,
+        10,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        0,
+        3,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        4,
+        0
+      ],
+      [
+        0,
+        4,
+        0,
+        0,
+        76,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        35,
+        3
+      ]
+    ],
+    "six_class_report": {
+      "dvd_no": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 10.0
+      },
+      "eso_no": {
+        "precision": 0.7142857142857143,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.6896551724137931,
+        "support": 30.0
+      },
+      "eso_V": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 6.0
+      },
+      "exo_A": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 4.0
+      },
+      "exo_no": {
+        "precision": 0.5547445255474452,
+        "recall": 0.926829268292683,
+        "f1-score": 0.6940639269406392,
+        "support": 82.0
+      },
+      "exo_V": {
+        "precision": 0.5,
+        "recall": 0.07692307692307693,
+        "f1-score": 0.13333333333333333,
+        "support": 39.0
+      },
+      "accuracy": 0.5789473684210527,
+      "macro avg": {
+        "precision": 0.2948383733055266,
+        "recall": 0.2784031686470711,
+        "f1-score": 0.2528420721146276,
+        "support": 171.0
+      },
+      "weighted avg": {
+        "precision": 0.5053662135874968,
+        "recall": 0.5789473684210527,
+        "f1-score": 0.48422746889793106,
+        "support": 171.0
+      }
+    }
+  },
+  "config": {
+    "mode": "mean",
+    "seed": 42,
+    "epochs": 40,
+    "backbone": "MobileNetV3-Small ImageNet1K V1",
+    "backbone_frozen": true,
+    "d_model": 192,
+    "d_state": 16,
+    "depth": 2,
+    "parameters": 114054,
+    "gaze_order": "5-2-3-6-9-8-7-4-1"
+  }
+}

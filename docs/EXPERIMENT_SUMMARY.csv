@@ -1,0 +1,11 @@
+phase,folder,method,best_epoch,val_accuracy,test_accuracy,test_weighted_f1,trainable_parameters
+temporal_effectiveness,00_mean_pooling,Mean Pooling,28,0.568513,0.543860,0.455503,
+temporal_effectiveness,01_linear_temporal_mamba,Clinical Linear Temporal Mamba,21,0.620991,0.596491,0.547623,703110
+order_ablation,02_random_order_mamba,Random Order Mamba,21,0.600583,0.584795,0.523694,703110
+order_ablation,03_reverse_order_mamba,Reverse Order Mamba,21,0.620991,0.538012,0.486584,703110
+order_ablation,04_row_major_mamba,Row-major Mamba,40,0.615160,0.561404,0.539708,703110
+structural_improvement,05_closed_loop_mamba,Closed-loop Mamba,29,0.603499,0.573099,0.521384,703302
+structural_improvement,06_circular_pe_mamba,Circular PE Mamba,25,0.620991,0.538012,0.506448,701958
+structural_improvement,07_bidirectional_mamba,Bidirectional Mamba,21,0.623907,0.549708,0.489370,1402758
+structural_improvement,08_center_ring_mamba,Center-ring Mamba,39,0.620991,0.567251,0.530522,1675404
+

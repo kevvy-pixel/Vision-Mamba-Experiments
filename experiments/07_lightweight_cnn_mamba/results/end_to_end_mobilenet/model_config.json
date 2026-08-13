@@ -1,0 +1,28 @@
+{
+  "seed": 42,
+  "epochs": 100,
+  "backbone": "MobileNetV3-Small ImageNet1K V1",
+  "stage1_head_checkpoint": "C:\\Users\\27356\\Documents\\Codex\\2026-08-12\\c-users-27356-documents-codex-2026\\outputs\\vision_mamba_experiments_seed42_20260812\\temporal_mamba\\lightweight_cnn_poc\\mamba_mean_seed42\\best.pt",
+  "stage1_best_epoch": 20,
+  "stage1_val": {
+    "loss": 1.1650448776890168,
+    "exact_accuracy": 0.5801749229431152,
+    "type_accuracy": 0.8396501541137695,
+    "pattern_accuracy": 0.705539345741272,
+    "joint_weighted_f1": 0.5242482548956273,
+    "joint_macro_f1": 0.29326686848618927
+  },
+  "backbone_lr": 2e-05,
+  "temporal_lr": 0.0001,
+  "d_model": 192,
+  "d_state": 16,
+  "depth": 2,
+  "pooling": "mean",
+  "gaze_order": "5-2-3-6-9-8-7-4-1",
+  "parameters": {
+    "total": 1544102,
+    "backbone": 927008,
+    "temporal_and_heads": 617094
+  },
+  "joint_fine_tuning": "all MobileNet and Clinical Mamba parameters"
+}

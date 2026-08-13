@@ -1,0 +1,55 @@
+{
+  "variant": "closed_loop",
+  "best_epoch": 29,
+  "best_val": {
+    "exact_accuracy": 0.6034985184669495,
+    "type_accuracy": 0.8542274236679077,
+    "pattern_accuracy": 0.728863000869751,
+    "joint_accuracy": 0.6034985422740525,
+    "joint_weighted_f1": 0.5372128770345532,
+    "loss": 1.112798624414049
+  },
+  "test": {
+    "exact_accuracy": 0.5730994343757629,
+    "type_accuracy": 0.8187134265899658,
+    "pattern_accuracy": 0.7251461744308472,
+    "joint_accuracy": 0.5730994152046783,
+    "joint_weighted_f1": 0.5213842038166445,
+    "loss": 1.1671479835844876
+  },
+  "config": {
+    "variant": "closed_loop",
+    "design": {
+      "sequence": [
+        5,
+        2,
+        3,
+        6,
+        9,
+        8,
+        7,
+        4,
+        1,
+        2
+      ],
+      "position": "learned linear"
+    },
+    "seed": 42,
+    "epochs": 100,
+    "d_model": 192,
+    "d_state": 16,
+    "depth": 2,
+    "feature_shape": [
+      1716,
+      9,
+      1024
+    ],
+    "split": {
+      "train": 1202,
+      "val": 343,
+      "test": 171
+    },
+    "trainable_parameters": 703302,
+    "pure_pytorch": true
+  }
+}

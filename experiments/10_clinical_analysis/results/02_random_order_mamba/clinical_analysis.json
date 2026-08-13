@@ -1,0 +1,238 @@
+{
+  "variant": "random",
+  "seed": 42,
+  "checkpoint_epoch": 21,
+  "design": {
+    "sequence": [
+      6,
+      7,
+      4,
+      9,
+      1,
+      3,
+      8,
+      5,
+      2
+    ],
+    "position": "learned linear"
+  },
+  "six_class_labels": [
+    "dvd_no",
+    "eso_no",
+    "eso_V",
+    "exo_A",
+    "exo_no",
+    "exo_V"
+  ],
+  "six_class_confusion_matrix": [
+    [
+      0,
+      1,
+      0,
+      0,
+      9,
+      0
+    ],
+    [
+      0,
+      21,
+      0,
+      0,
+      9,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      3,
+      1
+    ],
+    [
+      1,
+      6,
+      0,
+      0,
+      70,
+      5
+    ],
+    [
+      1,
+      1,
+      0,
+      0,
+      28,
+      9
+    ]
+  ],
+  "six_class_report": {
+    "dvd_no": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 10.0
+    },
+    "eso_no": {
+      "precision": 0.6363636363636364,
+      "recall": 0.7,
+      "f1-score": 0.6666666666666666,
+      "support": 30.0
+    },
+    "eso_V": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 6.0
+    },
+    "exo_A": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "exo_no": {
+      "precision": 0.5785123966942148,
+      "recall": 0.8536585365853658,
+      "f1-score": 0.6896551724137931,
+      "support": 82.0
+    },
+    "exo_V": {
+      "precision": 0.6,
+      "recall": 0.23076923076923078,
+      "f1-score": 0.3333333333333333,
+      "support": 39.0
+    },
+    "accuracy": 0.5847953216374269,
+    "macro avg": {
+      "precision": 0.3024793388429752,
+      "recall": 0.29740462789243277,
+      "f1-score": 0.28160919540229884,
+      "support": 171.0
+    },
+    "weighted avg": {
+      "precision": 0.5259001498235948,
+      "recall": 0.5847953216374269,
+      "f1-score": 0.5236942932042751,
+      "support": 171.0
+    }
+  },
+  "type_labels": [
+    "dvd",
+    "eso",
+    "exo"
+  ],
+  "type_confusion_matrix": [
+    [
+      0,
+      1,
+      9
+    ],
+    [
+      0,
+      25,
+      11
+    ],
+    [
+      2,
+      7,
+      116
+    ]
+  ],
+  "type_report": {
+    "dvd": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 10.0
+    },
+    "eso": {
+      "precision": 0.7575757575757576,
+      "recall": 0.6944444444444444,
+      "f1-score": 0.7246376811594203,
+      "support": 36.0
+    },
+    "exo": {
+      "precision": 0.8529411764705882,
+      "recall": 0.928,
+      "f1-score": 0.8888888888888888,
+      "support": 125.0
+    },
+    "accuracy": 0.8245614035087719,
+    "macro avg": {
+      "precision": 0.5368389780154486,
+      "recall": 0.5408148148148149,
+      "f1-score": 0.5378421900161031,
+      "support": 171.0
+    },
+    "weighted avg": {
+      "precision": 0.7829846452137473,
+      "recall": 0.8245614035087719,
+      "f1-score": 0.8023278808938611,
+      "support": 171.0
+    }
+  },
+  "pattern_labels": [
+    "no",
+    "A",
+    "V"
+  ],
+  "pattern_confusion_matrix": [
+    [
+      117,
+      0,
+      5
+    ],
+    [
+      3,
+      0,
+      1
+    ],
+    [
+      36,
+      0,
+      9
+    ]
+  ],
+  "pattern_report": {
+    "no": {
+      "precision": 0.75,
+      "recall": 0.9590163934426229,
+      "f1-score": 0.841726618705036,
+      "support": 122.0
+    },
+    "A": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "V": {
+      "precision": 0.6,
+      "recall": 0.2,
+      "f1-score": 0.3,
+      "support": 45.0
+    },
+    "accuracy": 0.7368421052631579,
+    "macro avg": {
+      "precision": 0.45,
+      "recall": 0.38633879781420766,
+      "f1-score": 0.3805755395683453,
+      "support": 171.0
+    },
+    "weighted avg": {
+      "precision": 0.6929824561403509,
+      "recall": 0.7368421052631579,
+      "f1-score": 0.6794774706550549,
+      "support": 171.0
+    }
+  }
+}

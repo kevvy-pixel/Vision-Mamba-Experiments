@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.log
+.env
+.venv/
+vim_env/
+Source_9gaze_composed/
+Target_9gaze_composed/
+pretrained_weights/
+outputs/
+logs/
+Vim/
+*.pt
+*.pth
+*.pkl
+*.orig

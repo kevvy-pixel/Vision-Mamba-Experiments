@@ -1,0 +1,171 @@
+{
+  "best_epoch": 50,
+  "best_val": {
+    "loss": 2.2597072580639197,
+    "exact_accuracy": 0.6443148851394653,
+    "type_accuracy": 0.9125364422798157,
+    "pattern_accuracy": 0.7201166152954102,
+    "joint_weighted_f1": 0.6077601480772773
+  },
+  "test": {
+    "loss": 2.1166812369697974,
+    "exact_accuracy": 0.6725146174430847,
+    "type_accuracy": 0.9122806787490845,
+    "pattern_accuracy": 0.7485380172729492,
+    "joint_weighted_f1": 0.6388319793455617,
+    "six_class_labels": [
+      "dvd_no",
+      "eso_no",
+      "eso_V",
+      "exo_A",
+      "exo_no",
+      "exo_V"
+    ],
+    "six_class_confusion_matrix": [
+      [
+        2,
+        1,
+        0,
+        0,
+        7,
+        0
+      ],
+      [
+        0,
+        29,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        3,
+        2,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        3,
+        1
+      ],
+      [
+        2,
+        2,
+        0,
+        0,
+        68,
+        10
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        24,
+        14
+      ]
+    ],
+    "six_class_report": {
+      "dvd_no": {
+        "precision": 0.5,
+        "recall": 0.2,
+        "f1-score": 0.2857142857142857,
+        "support": 10.0
+      },
+      "eso_no": {
+        "precision": 0.8055555555555556,
+        "recall": 0.9666666666666667,
+        "f1-score": 0.8787878787878788,
+        "support": 30.0
+      },
+      "eso_V": {
+        "precision": 1.0,
+        "recall": 0.3333333333333333,
+        "f1-score": 0.5,
+        "support": 6.0
+      },
+      "exo_A": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 4.0
+      },
+      "exo_no": {
+        "precision": 0.6538461538461539,
+        "recall": 0.8292682926829268,
+        "f1-score": 0.7311827956989247,
+        "support": 82.0
+      },
+      "exo_V": {
+        "precision": 0.56,
+        "recall": 0.358974358974359,
+        "f1-score": 0.4375,
+        "support": 39.0
+      },
+      "accuracy": 0.672514619883041,
+      "macro avg": {
+        "precision": 0.5865669515669515,
+        "recall": 0.44804044194288095,
+        "f1-score": 0.47219749336684824,
+        "support": 171.0
+      },
+      "weighted avg": {
+        "precision": 0.6469125805967911,
+        "recall": 0.672514619883041,
+        "f1-score": 0.6388319793455617,
+        "support": 171.0
+      }
+    },
+    "type_confusion_matrix": [
+      [
+        2,
+        1,
+        7
+      ],
+      [
+        0,
+        34,
+        2
+      ],
+      [
+        2,
+        3,
+        120
+      ]
+    ],
+    "pattern_confusion_matrix": [
+      [
+        112,
+        0,
+        10
+      ],
+      [
+        3,
+        0,
+        1
+      ],
+      [
+        29,
+        0,
+        16
+      ]
+    ]
+  },
+  "config": {
+    "seed": 42,
+    "epochs": 100,
+    "backbone_lr": 2e-05,
+    "temporal_lr": 0.0002,
+    "d_model": 192,
+    "d_state": 16,
+    "depth": 2,
+    "input": "nine 224x224 clinical-order crops",
+    "joint_fine_tuning": "all DenseNet and Temporal Mamba parameters"
+  }
+}

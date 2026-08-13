@@ -1,0 +1,68 @@
+{
+  "variant": "bidirectional",
+  "best_epoch": 21,
+  "best_val": {
+    "exact_accuracy": 0.6239067316055298,
+    "type_accuracy": 0.8775510191917419,
+    "pattern_accuracy": 0.7346938848495483,
+    "joint_accuracy": 0.6239067055393586,
+    "joint_weighted_f1": 0.5627492719329453,
+    "loss": 1.042509769906803
+  },
+  "test": {
+    "exact_accuracy": 0.5497075915336609,
+    "type_accuracy": 0.8421052694320679,
+    "pattern_accuracy": 0.6900584697723389,
+    "joint_accuracy": 0.5497076023391813,
+    "joint_weighted_f1": 0.48936978803156483,
+    "loss": 1.1151600225627074
+  },
+  "config": {
+    "variant": "bidirectional",
+    "design": {
+      "forward": [
+        5,
+        2,
+        3,
+        6,
+        9,
+        8,
+        7,
+        4,
+        1,
+        2
+      ],
+      "backward": [
+        5,
+        2,
+        1,
+        4,
+        7,
+        8,
+        9,
+        6,
+        3,
+        2
+      ],
+      "position": "sin/cos ring + center flag",
+      "fusion": "mean of independent direction encoders"
+    },
+    "seed": 42,
+    "epochs": 100,
+    "d_model": 192,
+    "d_state": 16,
+    "depth": 2,
+    "feature_shape": [
+      1716,
+      9,
+      1024
+    ],
+    "split": {
+      "train": 1202,
+      "val": 343,
+      "test": 171
+    },
+    "trainable_parameters": 1402758,
+    "pure_pytorch": true
+  }
+}

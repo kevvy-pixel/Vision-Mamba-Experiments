@@ -1,0 +1,54 @@
+﻿{
+    "protocol":  "Seeds 42/43/44; shared feature cache; seed-specific stratified splits; 100 epochs",
+    "updated_at":  "2026-08-12T14:50:04.6266301+08:00",
+    "runs":  [
+                 {
+                     "seed":  43,
+                     "variant":  "mean",
+                     "state":  "completed",
+                     "exit_code":  0
+                 },
+                 {
+                     "seed":  43,
+                     "variant":  "clinical",
+                     "state":  "completed",
+                     "exit_code":  0
+                 },
+                 {
+                     "seed":  43,
+                     "variant":  "random",
+                     "state":  "completed",
+                     "exit_code":  0
+                 },
+                 {
+                     "seed":  43,
+                     "variant":  "row_major",
+                     "state":  "completed",
+                     "exit_code":  0
+                 },
+                 {
+                     "seed":  44,
+                     "variant":  "mean",
+                     "state":  "completed",
+                     "exit_code":  0
+                 },
+                 {
+                     "seed":  44,
+                     "variant":  "clinical",
+                     "state":  "completed",
+                     "exit_code":  0
+                 },
+                 {
+                     "seed":  44,
+                     "variant":  "random",
+                     "state":  "completed",
+                     "exit_code":  0
+                 },
+                 {
+                     "seed":  44,
+                     "variant":  "row_major",
+                     "state":  "completed",
+                     "exit_code":  0
+                 }
+             ]
+}

@@ -1,0 +1,69 @@
+{
+  "variant": "center_ring",
+  "best_epoch": 39,
+  "best_val": {
+    "exact_accuracy": 0.6209912300109863,
+    "type_accuracy": 0.8775510191917419,
+    "pattern_accuracy": 0.7230320572853088,
+    "joint_accuracy": 0.6209912536443148,
+    "joint_weighted_f1": 0.5791667285148775,
+    "loss": 1.4001230866846468
+  },
+  "test": {
+    "exact_accuracy": 0.567251443862915,
+    "type_accuracy": 0.8362573385238647,
+    "pattern_accuracy": 0.6959064602851868,
+    "joint_accuracy": 0.5672514619883041,
+    "joint_weighted_f1": 0.5305221433367886,
+    "loss": 1.4451518240030745
+  },
+  "config": {
+    "variant": "center_ring",
+    "design": {
+      "center": [
+        5
+      ],
+      "ring_forward": [
+        2,
+        3,
+        6,
+        9,
+        8,
+        7,
+        4,
+        1,
+        2
+      ],
+      "ring_backward": [
+        2,
+        1,
+        4,
+        7,
+        8,
+        9,
+        6,
+        3,
+        2
+      ],
+      "position": "sin/cos ring",
+      "fusion": "center MLP concatenated with bidirectional circular ring"
+    },
+    "seed": 42,
+    "epochs": 100,
+    "d_model": 192,
+    "d_state": 16,
+    "depth": 2,
+    "feature_shape": [
+      1716,
+      9,
+      1024
+    ],
+    "split": {
+      "train": 1202,
+      "val": 343,
+      "test": 171
+    },
+    "trainable_parameters": 1675404,
+    "pure_pytorch": true
+  }
+}

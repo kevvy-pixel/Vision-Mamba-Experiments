@@ -1,0 +1,26 @@
+{
+  "source_train": {
+    "dvd_no": 74,
+    "eso_V": 39,
+    "eso_no": 214,
+    "exo_A": 30,
+    "exo_V": 271,
+    "exo_no": 574
+  },
+  "source_val": {
+    "dvd_no": 21,
+    "eso_V": 11,
+    "eso_no": 61,
+    "exo_A": 9,
+    "exo_V": 77,
+    "exo_no": 164
+  },
+  "test": {
+    "dvd_no": 10,
+    "eso_V": 6,
+    "eso_no": 30,
+    "exo_A": 4,
+    "exo_V": 39,
+    "exo_no": 82
+  }
+}

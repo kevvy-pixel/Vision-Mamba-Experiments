@@ -1,0 +1,49 @@
+{
+  "variant": "center_ring",
+  "design": {
+    "center": [
+      5
+    ],
+    "ring_forward": [
+      2,
+      3,
+      6,
+      9,
+      8,
+      7,
+      4,
+      1,
+      2
+    ],
+    "ring_backward": [
+      2,
+      1,
+      4,
+      7,
+      8,
+      9,
+      6,
+      3,
+      2
+    ],
+    "position": "sin/cos ring",
+    "fusion": "center MLP concatenated with bidirectional circular ring"
+  },
+  "seed": 42,
+  "epochs": 100,
+  "d_model": 192,
+  "d_state": 16,
+  "depth": 2,
+  "feature_shape": [
+    1716,
+    9,
+    1024
+  ],
+  "split": {
+    "train": 1202,
+    "val": 343,
+    "test": 171
+  },
+  "trainable_parameters": 1675404,
+  "pure_pytorch": true
+}

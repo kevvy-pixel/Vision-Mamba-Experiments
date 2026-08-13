@@ -1,0 +1,44 @@
+{
+  "variant": "mean",
+  "best_epoch": 73,
+  "best_val": {
+    "exact_accuracy": 0.5801749229431152,
+    "type_accuracy": 0.8309037685394287,
+    "pattern_accuracy": 0.728863000869751,
+    "joint_accuracy": 0.5801749271137027,
+    "joint_weighted_f1": 0.47964407438713585,
+    "loss": 1.2144820071517899
+  },
+  "test": {
+    "exact_accuracy": 0.5555555820465088,
+    "type_accuracy": 0.8187134265899658,
+    "pattern_accuracy": 0.7309941649436951,
+    "joint_accuracy": 0.5555555555555556,
+    "joint_weighted_f1": 0.4572340580303045,
+    "loss": 1.3332404755709464
+  },
+  "config": {
+    "variant": "mean",
+    "design": {
+      "sequence": "unordered mean over identical nine features",
+      "position": "none"
+    },
+    "seed": 44,
+    "epochs": 100,
+    "d_model": 192,
+    "d_state": 16,
+    "depth": 2,
+    "feature_shape": [
+      1716,
+      9,
+      1024
+    ],
+    "split": {
+      "train": 1202,
+      "val": 343,
+      "test": 171
+    },
+    "trainable_parameters": 198342,
+    "pure_pytorch": true
+  }
+}

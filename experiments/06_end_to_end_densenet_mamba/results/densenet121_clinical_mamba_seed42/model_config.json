@@ -1,0 +1,11 @@
+{
+  "seed": 42,
+  "epochs": 100,
+  "backbone_lr": 2e-05,
+  "temporal_lr": 0.0002,
+  "d_model": 192,
+  "d_state": 16,
+  "depth": 2,
+  "input": "nine 224x224 clinical-order crops",
+  "joint_fine_tuning": "all DenseNet and Temporal Mamba parameters"
+}

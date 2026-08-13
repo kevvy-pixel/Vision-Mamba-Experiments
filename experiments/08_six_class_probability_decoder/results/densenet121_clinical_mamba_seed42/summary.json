@@ -1,0 +1,28 @@
+{
+  "checkpoint": "outputs\\vision_mamba_experiments_seed42_20260812\\temporal_mamba\\end_to_end\\densenet121_clinical_mamba_seed42\\best.pt",
+  "best_epoch": 50,
+  "n_samples": 171,
+  "independent_dual_argmax": {
+    "accuracy": 0.672514619883041,
+    "weighted_f1": 0.6388319793455617,
+    "macro_f1": 0.47219749336684824
+  },
+  "constrained_joint_probability": {
+    "accuracy": 0.672514619883041,
+    "weighted_f1": 0.6388319793455617,
+    "macro_f1": 0.47219749336684824
+  },
+  "changed_predictions": 0,
+  "invalid_independent_combinations": 0,
+  "mean_top1_confidence": 0.934427429360953,
+  "multiclass_nll": 2.1162164051375214,
+  "multiclass_brier": 0.6104192768102511,
+  "class_order": [
+    "dvd_no",
+    "eso_no",
+    "eso_V",
+    "exo_A",
+    "exo_no",
+    "exo_V"
+  ]
+}

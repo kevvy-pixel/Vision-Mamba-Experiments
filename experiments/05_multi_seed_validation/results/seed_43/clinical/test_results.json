@@ -1,0 +1,54 @@
+{
+  "variant": "clinical",
+  "best_epoch": 22,
+  "best_val": {
+    "exact_accuracy": 0.5830903649330139,
+    "type_accuracy": 0.8483964800834656,
+    "pattern_accuracy": 0.7172011733055115,
+    "joint_accuracy": 0.5830903790087464,
+    "joint_weighted_f1": 0.5291835792593913,
+    "loss": 1.1736535186670265
+  },
+  "test": {
+    "exact_accuracy": 0.5614035129547119,
+    "type_accuracy": 0.8362573385238647,
+    "pattern_accuracy": 0.719298243522644,
+    "joint_accuracy": 0.5614035087719298,
+    "joint_weighted_f1": 0.5115187516045349,
+    "loss": 1.15137235184162
+  },
+  "config": {
+    "variant": "clinical",
+    "design": {
+      "sequence": [
+        5,
+        2,
+        3,
+        6,
+        9,
+        8,
+        7,
+        4,
+        1
+      ],
+      "position": "learned linear"
+    },
+    "seed": 43,
+    "epochs": 100,
+    "d_model": 192,
+    "d_state": 16,
+    "depth": 2,
+    "feature_shape": [
+      1716,
+      9,
+      1024
+    ],
+    "split": {
+      "train": 1202,
+      "val": 343,
+      "test": 171
+    },
+    "trainable_parameters": 703110,
+    "pure_pytorch": true
+  }
+}

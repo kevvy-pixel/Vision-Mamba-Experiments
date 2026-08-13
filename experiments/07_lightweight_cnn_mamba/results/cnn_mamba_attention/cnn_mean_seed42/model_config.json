@@ -1,0 +1,26 @@
+{
+  "data_dir": "D:\\Source_9gaze_composed",
+  "output_dir": "C:\\Users\\27356\\Documents\\Codex\\2026-08-12\\c-users-27356-documents-codex-2026\\outputs\\vision_mamba_experiments_seed42_20260812\\temporal_mamba\\lightweight_cnn_mamba_attention\\cnn_mean_seed42",
+  "model": "cnn_mean",
+  "epochs": 100,
+  "batch_size": 8,
+  "num_workers": 0,
+  "seed": 42,
+  "device": "cuda:0",
+  "lr": 0.0003,
+  "weight_decay": 0.05,
+  "d_model": 192,
+  "d_state": 16,
+  "depth": 2,
+  "dropout": 0.1,
+  "amp": true,
+  "dry_run": false,
+  "parameters": {
+    "total": 881510,
+    "trainable": 881510,
+    "cnn": 878240
+  },
+  "input": "nine 224x224 clinical-order crops",
+  "gaze_order": "5-2-3-6-9-8-7-4-1",
+  "attention": "none"
+}

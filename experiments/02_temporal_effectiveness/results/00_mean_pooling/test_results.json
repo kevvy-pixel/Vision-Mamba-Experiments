@@ -1,0 +1,20 @@
+{
+  "model": "mean",
+  "best_epoch": 28,
+  "best_val": {
+    "exact_accuracy": 0.5685130953788757,
+    "type_accuracy": 0.8367347121238708,
+    "pattern_accuracy": 0.7142857313156128,
+    "joint_accuracy": 0.5685131195335277,
+    "joint_weighted_f1": 0.4893856025356852,
+    "loss": 1.1898145613100368
+  },
+  "test": {
+    "exact_accuracy": 0.5438596606254578,
+    "type_accuracy": 0.8187134265899658,
+    "pattern_accuracy": 0.7017543911933899,
+    "joint_accuracy": 0.543859649122807,
+    "joint_weighted_f1": 0.4555027252509607,
+    "loss": 1.1916761447114554
+  }
+}

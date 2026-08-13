@@ -1,0 +1,140 @@
+{
+  "best_epoch": 20,
+  "best_val": {
+    "loss": 1.1650448776890168,
+    "exact_accuracy": 0.5801749229431152,
+    "type_accuracy": 0.8396501541137695,
+    "pattern_accuracy": 0.705539345741272,
+    "joint_weighted_f1": 0.5242482548956273,
+    "joint_macro_f1": 0.29326686848618927
+  },
+  "test": {
+    "loss": 1.1124613393119902,
+    "exact_accuracy": 0.6140350699424744,
+    "type_accuracy": 0.8654970526695251,
+    "pattern_accuracy": 0.7251461744308472,
+    "joint_weighted_f1": 0.5473501245801853,
+    "joint_macro_f1": 0.2945493032626885,
+    "six_class_labels": [
+      "dvd_no",
+      "eso_no",
+      "eso_V",
+      "exo_A",
+      "exo_no",
+      "exo_V"
+    ],
+    "six_class_confusion_matrix": [
+      [
+        0,
+        2,
+        0,
+        0,
+        8,
+        0
+      ],
+      [
+        0,
+        23,
+        1,
+        0,
+        6,
+        0
+      ],
+      [
+        0,
+        4,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        4,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        0,
+        74,
+        6
+      ],
+      [
+        0,
+        2,
+        1,
+        0,
+        28,
+        8
+      ]
+    ],
+    "six_class_report": {
+      "dvd_no": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 10.0
+      },
+      "eso_no": {
+        "precision": 0.71875,
+        "recall": 0.7666666666666667,
+        "f1-score": 0.7419354838709677,
+        "support": 30.0
+      },
+      "eso_V": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 6.0
+      },
+      "exo_A": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 4.0
+      },
+      "exo_no": {
+        "precision": 0.6115702479338843,
+        "recall": 0.9024390243902439,
+        "f1-score": 0.729064039408867,
+        "support": 82.0
+      },
+      "exo_V": {
+        "precision": 0.5333333333333333,
+        "recall": 0.20512820512820512,
+        "f1-score": 0.2962962962962963,
+        "support": 39.0
+      },
+      "accuracy": 0.6140350877192983,
+      "macro avg": {
+        "precision": 0.31060893021120295,
+        "recall": 0.31237231603085264,
+        "f1-score": 0.2945493032626885,
+        "support": 171.0
+      },
+      "weighted avg": {
+        "precision": 0.5410015224010439,
+        "recall": 0.6140350877192983,
+        "f1-score": 0.5473501245801853,
+        "support": 171.0
+      }
+    }
+  },
+  "config": {
+    "mode": "mamba_mean",
+    "seed": 42,
+    "epochs": 40,
+    "backbone": "MobileNetV3-Small ImageNet1K V1",
+    "backbone_frozen": true,
+    "d_model": 192,
+    "d_state": 16,
+    "depth": 2,
+    "parameters": 617094,
+    "gaze_order": "5-2-3-6-9-8-7-4-1"
+  }
+}

@@ -1,0 +1,25 @@
+# 数据集与本地环境
+data/
+datasets/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# 模型、预训练权重与缓存特征（见 artifacts/EXCLUDED_BINARY_ARTIFACTS.csv）
+*.pt
+*.pth
+*.ckpt
+*.npy
+pretrained_weights/
+
+# 编辑器与系统文件
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# 临时输出
+tmp/
+*.tmp
+
