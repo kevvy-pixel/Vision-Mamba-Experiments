@@ -1,0 +1,37 @@
+{
+  "total": 1716,
+  "split_seed": 42,
+  "patient_level": true,
+  "one_image_per_patient": true,
+  "counts": {
+    "train": {
+      "dvd_no": 74,
+      "eso_V": 39,
+      "eso_no": 214,
+      "exo_A": 30,
+      "exo_V": 271,
+      "exo_no": 574
+    },
+    "val": {
+      "dvd_no": 21,
+      "eso_V": 11,
+      "eso_no": 61,
+      "exo_A": 9,
+      "exo_V": 77,
+      "exo_no": 164
+    },
+    "test": {
+      "dvd_no": 10,
+      "eso_V": 6,
+      "eso_no": 30,
+      "exo_A": 4,
+      "exo_V": 39,
+      "exo_no": 82
+    }
+  },
+  "split_sizes": {
+    "train": 1202,
+    "val": 343,
+    "test": 171
+  }
+}

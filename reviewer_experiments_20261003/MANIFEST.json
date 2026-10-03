@@ -1,0 +1,132 @@
+[
+  {
+    "path": "audit_code.py",
+    "sha256": "C54ADE3BC6E7AA884C38D4C039B66173AEC91041D259CB2DDD2800E033EFEFC2",
+    "bytes": 1184
+  },
+  {
+    "path": "README_TRANSFER.md",
+    "sha256": "86C4E48F0BFC8126DE16ED131BBF469E8D6BF95A20F79241EC255FDCD2D4F5F2",
+    "bytes": 2137
+  },
+  {
+    "path": "run_phase1.ps1",
+    "sha256": "EF12F791A14DB6C6A201DCB0CF8C5320673B1E74F45273F9DE156C1209F7C312",
+    "bytes": 2133
+  },
+  {
+    "path": "run_phase2.ps1",
+    "sha256": "E11A6E460E7A280F22919B8F89A69D059059D94918BB19873837A96F87CF9017",
+    "bytes": 2000
+  },
+  {
+    "path": "wait_and_phase2.ps1",
+    "sha256": "576D26212F587E86F594AA5A370ECF5C740667B35E528D702C9862B276E9D1E6",
+    "bytes": 594
+  },
+  {
+    "path": "code\\make_fixed_split.py",
+    "sha256": "9979A443BDD36C09AF2F0823C378A6A6801D0667DF8C1D246B843DCEF02DD6B5",
+    "bytes": 2176
+  },
+  {
+    "path": "code\\train_sequence_baselines.py",
+    "sha256": "33BE694D92803B871FB35601F53A1E38686E5FABD398B8FE90C8EB4FE906E0A4",
+    "bytes": 5919
+  },
+  {
+    "path": "code\\adapted_cignn\\train_adapted_cignn.py",
+    "sha256": "4E076EE1A515EA15ED4EF407BF3D8B83A264D99950059414462C51BEEBB24DFB",
+    "bytes": 12140
+  },
+  {
+    "path": "code\\official_cignn\\train_official_fullface_joint.py",
+    "sha256": "878AF2B07F6792A639B146D7F9D9A1AE35C7A162BB6D1A475DE20300A75ACA83",
+    "bytes": 14333
+  },
+  {
+    "path": "code\\static_baselines\\train_source_domain_used.py",
+    "sha256": "8057B3B404473948667FCD8A54EA0AF9324E80466BDF2869476FC710607DC50F",
+    "bytes": 20409
+  },
+  {
+    "path": "code\\static_baselines\\vit_model.py",
+    "sha256": "28C3867280CCE75B950CEA6595B3719EBEAF43D93134E1F67D7720AB05F4AE15",
+    "bytes": 13507
+  },
+  {
+    "path": "code\\temporal_mamba\\clinical_analysis.py",
+    "sha256": "404DE83D7ABF28D5361D7205A58310D7A9809CF544E14964F05B6E7D7463D01B",
+    "bytes": 6165
+  },
+  {
+    "path": "code\\temporal_mamba\\evaluate_six_class_probability_decoder.py",
+    "sha256": "F20F69499DBA970B3BF196C2A87DFE1C780499065652F227116EE6E012485B21",
+    "bytes": 4621
+  },
+  {
+    "path": "code\\temporal_mamba\\plot_clinical_matrices.py",
+    "sha256": "02A7C90A800E46D8DEB6AC929A23D8BBAFFB8838D3BFA3F8F54311668C91DA4B",
+    "bytes": 1772
+  },
+  {
+    "path": "code\\temporal_mamba\\pure_torch_mamba.py",
+    "sha256": "BE57655715F4CF3AA8D8E765222795D924E433BE7ADBF227471C96B7A4162AA5",
+    "bytes": 3542
+  },
+  {
+    "path": "code\\temporal_mamba\\README.md",
+    "sha256": "3F1DC48100D070480DB2F1B90BD06309EACA7EECAC3A91325CDCBD268E539E00",
+    "bytes": 760
+  },
+  {
+    "path": "code\\temporal_mamba\\requirements.txt",
+    "sha256": "FF6EA0A77BDBC2D89926DAA8E425AE86C7862AB2E74BF9406692865382B73FA2",
+    "bytes": 172
+  },
+  {
+    "path": "code\\temporal_mamba\\train_dense_mamba_head6.py",
+    "sha256": "19D0CCFFDEFEDB287B0C8351678A93541477C376E3D397CD287276458FC25A28",
+    "bytes": 7677
+  },
+  {
+    "path": "code\\temporal_mamba\\train_end_to_end_densenet_mamba.py",
+    "sha256": "5AA38DB90CF9D36982D6961130E19A730302AB7507AC99788521D6B7C3ECE8FC",
+    "bytes": 11053
+  },
+  {
+    "path": "code\\temporal_mamba\\train_end_to_end_mobilenet_mamba.py",
+    "sha256": "43016DBDB2D526EB6D5C7D5CE5D0ECF64C0AB38044D5E2E745B9174AFC490485",
+    "bytes": 10681
+  },
+  {
+    "path": "code\\temporal_mamba\\train_frozen_lightweight_cnn_poc.py",
+    "sha256": "8CC94529D06977E4B0F4214934CBE041B3AE043DDFB625FF904EC1CF8726DA6A",
+    "bytes": 10750
+  },
+  {
+    "path": "code\\temporal_mamba\\train_gaze_structure.py",
+    "sha256": "4C34A8FAABE55D760D1DFA37F0C52430B879E9949294DC35E93C55FA4A44AEFC",
+    "bytes": 13704
+  },
+  {
+    "path": "code\\temporal_mamba\\train_lightweight_cnn_mamba_attention.py",
+    "sha256": "B7327754E3246CEA4E02B4DD5AEAA780E8C08B6642AADD7216645DABBDE9AB6A",
+    "bytes": 12407
+  },
+  {
+    "path": "code\\temporal_mamba\\train_temporal_ablation.py",
+    "sha256": "A30FED96F2959458E0A1E8F0F1A1B71091EA9E5058B501520060764A66317A38",
+    "bytes": 14815
+  },
+  {
+    "path": "split\\fixed_split_relative.csv",
+    "sha256": "DC321B93965F6947428E2C5F0A29C41AE3038A34DC55B798968098E17C25690E",
+    "bytes": 123831
+  },
+  {
+    "path": "split\\fixed_split_summary.json",
+    "sha256": "0EBE811B0C995F033F91FABCEBCDF1C5D5BE572B6BD9ABFF061F055300783FB9",
+    "bytes": 638
+  }
+]
