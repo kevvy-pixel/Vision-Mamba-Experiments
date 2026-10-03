@@ -4,10 +4,6 @@
 
 > 医学数据说明：原始数据集 `Source_9gaze_composed` 不包含在仓库中。本仓库默认按私有仓库发布。所有划分清单中的原始文件路径和患者拼音文件名已替换为确定性哈希样本 ID；日志中的原始数据路径也已清理。使用者仍应在公开发布前再次完成伦理审查。
 
-## 0. 审稿实验便携版（2026-10-03）
-
-`reviewer_experiments_20261003/` 是基于固定患者级划分重新运行的审稿实验代码包，来自 D 盘本次运行所使用的 portable package。该目录包含固定 split 生成脚本、GazeMamba/静态基线/CI-GNN/序列基线代码、启动脚本、配置清单和 split manifest；不包含原始数据、预训练权重、缓存特征或 checkpoint。其复现协议为 `split_seed=42`、E2E DenseNet--GazeMamba `batch_size=4`、AMP、`num_workers=0`，与旧版历史实验目录的代码和结果不同。运行前请先执行该目录下的 `audit_code.py`，并按 `README_TRANSFER.md` 配置本地数据和权重路径。
-
 ## 1. 研究问题
 
 项目围绕以下问题逐步验证：
